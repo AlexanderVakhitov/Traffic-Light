@@ -1,0 +1,141 @@
+#actionWindow
+{
+    position: relative;
+
+    margin: 0 auto;
+
+    width: 800px;
+    height: 500px;
+
+    border: 4px ridge #131C4C;
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    z-index: 1;
+}
+
+#trafficLight
+{
+    position: relative;
+
+    margin: 10px auto;
+
+    width: 100px;
+    height: 250px;
+
+    border: 4px solid #555555;
+    border-radius: 10px;
+
+    z-index: 2;
+
+    background: #222222;
+}
+
+.on
+{
+    opacity: 1;
+}
+
+.off
+{
+    opacity: 0.5;
+}
+
+#red
+{
+    position: absolute;
+
+    width: 75px;
+    height: 75px;
+
+    top: 5px;
+    left: 12px;
+
+    border-radius: 50%;
+    box-shadow: 0 0 10px #222222 inset;
+
+    background-size: 5px 5px;
+    background-image: radial-gradient(red, transparent);
+
+    z-index: 3;
+}
+
+#yellow
+{
+    position: absolute;
+
+    width: 75px;
+    height: 75px;
+
+    top: 85px;
+    left: 12px;
+
+    border-radius: 50%;
+    box-shadow: 0 0 10px #222222 inset;
+
+    background-size: 5px 5px;
+    background-image: radial-gradient(yellow, transparent);
+
+    z-index: 3;
+}
+
+#green
+{
+    position: absolute;
+
+    width: 75px;
+    height: 75px;
+
+    top: 165px;
+    left: 12px;
+
+    border-radius: 50%;
+    box-shadow: 0 0 10px #222222 inset;
+
+    background-size: 5px 5px;
+    background-image: radial-gradient(lawngreen, transparent);
+
+    z-index: 3;
+}
+
+#tramEvent
+{
+    display: block;
+    position: relative;
+
+    margin: 150px auto;
+
+    width: 200px;
+    height: 50px;
+
+    border: solid 1px #000000;
+    border-radius: 10px;
+
+    background-color: #FF1300;
+
+    color: #000000;
+
+    outline: none;
+}
+
+#tramEvent:hover
+{
+    background-color: #A60C00;
+    color: white;
+    cursor: pointer;
+}
+
+#tram
+{
+    position: absolute;
+
+    left: -250px;
+
+    width: 200px;
+    height: 80px;
+
+    background-size: 100% 100%;
+    background-image: url(../img/tram.png);
+}
+

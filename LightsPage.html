@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>
+			TrafficLight
+		</title>
+        <link rel="stylesheet" type="text/css" href="css/trafficlight.css">
+	</head>
+	<body onload="start()">
+        <div id="actionWindow">
+            <div id="trafficLight">
+                <div id="red"></div>
+                <div id="yellow"></div>
+                <div id="green"></div>
+            </div>
+            <div id="tram"></div>
+            <button id="tramEvent" onclick="tramGo()">ТРАМВАЙ</button>
+        </div>
+
+        <script type="text/javascript" src="js/Lights.js"></script>
+        <script type="text/javascript" src="js/EventEmitter.js"></script>
+        <script type="text/javascript" src="js/MainScript.js"></script>
+	</body>
+</html>
